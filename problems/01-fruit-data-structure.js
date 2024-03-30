@@ -1,5 +1,8 @@
+// "require" usually refers to data in a separate file
+
 /**************DO NOT MODIFY THIS LINE BELOW*****************/
 const fruits = require('../fruit-data')
+
 
 /* 01. `firstFruitObject()` - Return the first object in the fruits array
 
@@ -9,9 +12,18 @@ console.log(firstFruitObject(fruits));
 // calories: 52, sugar: 10.3 } }
 */
 
+
 function firstFruitObject(fruits) {
-    // Your code here 
+
+for (let key in fruits) {
+
+    console.log(fruits)
 }
+
+}
+
+console.log(firstFruitObject(fruits));
+
 
 
 
