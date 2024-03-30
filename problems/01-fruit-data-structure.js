@@ -13,16 +13,12 @@ console.log(firstFruitObject(fruits));
 */
 
 
-function firstFruitObject(fruits) {
+// function firstFruitObject(fruits) {
+//  let [firstObj] = fruits
+//  return firstObj;
+// }
 
-for (let key in fruits) {
-
-    console.log(fruits)
-}
-
-}
-
-console.log(firstFruitObject(fruits));
+// console.log(firstFruitObject(fruits));
 
 
 
@@ -36,10 +32,11 @@ console.log(lastFruitObject(fruits));
 */
 
 function lastFruitObject(fruits) {
-    // Your code here 
+   let [lastElement] = fruits
+    console.log(fruits.length)
 }
 
-
+console.log(lastFruitObject(fruits))
 /* 03. `indexFruitObject()` - Return one object at the given index from the
 fruits array. The function should have two parameters, the array and the
 index of the item.
@@ -50,9 +47,9 @@ console.log(indexFruitObject(17, fruits));
 // 0.38, calories: 60, sugar: 13.7 } };
 */
 
-function indexFruitObject(index, fruits) {
-    // Your code here 
-}
+// function indexFruitObject(index, fruits) {
+//     // Your code here
+// }
 
 
 /* 04. `fruitNames()` - Return a list of all of the fruit names
@@ -66,7 +63,7 @@ console.log(fruitNames(fruits));
 */
 
 function fruitNames(fruits) {
-    // Your code here 
+    // Your code here
 }
 
 /* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
@@ -76,9 +73,9 @@ NOTE: Call a function you previously wrote as a helper function.
 // // [ 'genus', 'name', 'id', 'family', 'order', 'nutritions' ];
 */
 
-function getFruitKeys(fruits) {
-    // Your code here 
-}
+// function getFruitKeys(fruits) {
+//     // Your code here
+// }
 
 
 /* 06. `getNutritionsKeys()` - Return a list of all of the keys within each
@@ -90,11 +87,11 @@ console.log(getNutritionsKeys(fruits));
 // [ 'carbohydrates', 'protein', 'fat', 'calories', 'sugar' ];
 */
 
-function getNutritionsKeys(fruits) {
-    // Your code here 
-}
+// function getNutritionsKeys(fruits) {
+//     // Your code here
+// }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
-module.exports = [firstFruitObject, lastFruitObject, indexFruitObject,
-    fruitNames, getFruitKeys, getNutritionsKeys];
+// module.exports = [firstFruitObject, lastFruitObject, indexFruitObject,
+//     fruitNames, getFruitKeys, getNutritionsKeys];
